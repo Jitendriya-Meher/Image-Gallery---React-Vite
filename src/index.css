@@ -1,0 +1,46 @@
+
+body{
+  background-color: rgb(229 231 235);
+}
+
+.body{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.me{
+  position: absolute;
+  font-size: 1rem;
+  font-family: cursive;
+  bottom: 5px;
+  right: 5px;
+}
+
+.images-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gal{
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(17 24 39);
+  margin-top: 1rem;
+  text-align: center;
+}
